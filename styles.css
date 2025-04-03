@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: #cccccc;
+    font-family: Roboto Mono;
+    color: black;
+    background: rgb(217,226,232);
+    background: linear-gradient(68deg, rgba(217,226,232,0.891281512605042) 0%, rgba(227,232,141,0.49666132478632474) 50%);
 }
 
 img {
@@ -10,7 +11,7 @@ img {
 
 h1 {
     text-align: center;
-    color: orange;
+    color: black;
 }
 
 h2 {
@@ -27,6 +28,11 @@ th {
 
 blockquote {
     font-style: italic;
+
+    &:hover {
+        color: purple;
+        font-weight: bold;
+    }
 }
 
 li {
